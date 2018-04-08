@@ -1,0 +1,22 @@
+
+#
+# rake
+#
+
+task default: %w[check_title]
+
+task :check_title do
+  puts "Test - check_title"
+end
+
+task :test_url do
+  puts "Test - url"
+end
+
+
+multitask :regression => [
+  :check_title,
+  :test_url
+] do
+  puts 'Running tests'
+end

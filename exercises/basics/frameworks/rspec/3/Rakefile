@@ -1,0 +1,10 @@
+task default: %w[test_title]
+
+task :test_title do
+  system "rspec --format documentation spec/title_spec.rb"
+end
+
+
+task :regression do
+  [:test_title].each { |t| build t }
+end

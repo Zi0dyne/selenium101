@@ -1,0 +1,13 @@
+
+#
+# rake
+#
+
+task default: %w[test_login]
+
+task :test_login do
+  puts "Test - login"
+end
+
+
+
