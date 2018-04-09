@@ -1,6 +1,6 @@
-
-
-
+#
+# Exercise 2
+#
 require 'selenium-webdriver'
 
 host = 'http://www.stpcon.com'

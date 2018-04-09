@@ -1,4 +1,5 @@
-
+#
+# Exercise 1
 #
 # Objective:  Open a browser (creates a session) and navigate to a specific URL, then obtain the title and current URL.
 #
